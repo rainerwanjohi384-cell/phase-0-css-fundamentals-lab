@@ -2,4 +2,61 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#main-header {
+  text-align: center;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+#navbar a {
+  padding: 0 10px;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+}
+
+.image-caption {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#details > div {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#details::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#bottom-row div {
+  width: 25%;
+  float: left;
+  background-color: #f2f2f2;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+
+#bottom-row::after {
+  content: "";
+  display: block;
+  clear: both;
 }
